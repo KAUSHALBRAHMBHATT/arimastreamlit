@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 import statsmodels.api as sm
 
-pickle_in = open("C:\Kaushal\Sem_3_CECS_AI\Project\CECS551_Fianl_Project_Dataset\CECS551_dataset_02\classifier.pkl","rb")
+pickle_in = open("classifier.pkl","rb")
 data = pickle.load(pickle_in)
 
 print("File running")
