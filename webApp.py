@@ -4,6 +4,7 @@ Created on Sat Dec  3 19:19:06 2022
 
 @author: kaush
 """
+pip install statsmodels
 
 import pickle
 import streamlit as st
